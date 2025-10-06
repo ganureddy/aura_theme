@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/aura_theme/css/aura_theme.css"
+app_include_css = ["/assets/aura_theme/css/custom_desk.css", "/assets/aura_theme/css/custom.css"]
 # app_include_js = "/assets/aura_theme/js/aura_theme.js"
 
 # include js, css files in header of web template

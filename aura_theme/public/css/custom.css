@@ -1,0 +1,66 @@
+.extra-len > .grid-heading-row, .extra-len > .grid-body {
+    min-width: 500px;
+}
+.extra-len .row-index span {
+    display: block !important;
+}
+.extra-len .row-index > .grid-row-check {
+    display: none !important;
+}
+.largerRows {
+    height: 200px !important;
+}
+.enrollment-table {
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 30px;
+}
+.enrollment-table td {
+    padding: 5px 20px;
+}
+.enrollment-table td a {
+    display: block;
+}
+.cst-button {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 9px;
+    border: 1px #d2d2d2 solid;
+}
+.enrollment-table td a:hover {
+    text-decoration: underline;
+}
+.enrollment-table thead td {
+    background-color: #1470c8;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+#popup {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1000px;
+    max-width: 95%;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #d5d5d5;
+    z-index: 100;
+}
+#qr {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #9f9f9f;
+    display: block;
+    z-index: 200;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+#qr img {
+    width: 100%;
+    height: auto;
+}
